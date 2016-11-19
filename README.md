@@ -1,4 +1,4 @@
-# Tensorflow-Functions
+# tensorflow_ops
 
 Available Functions:
 
@@ -12,4 +12,16 @@ Available Functions:
 or
 
 `sudo pip install -e .`
+
+
+## Usage
+
+`from tensorflow_ops import _conv_layer`
+`_conv_layer(...)
+or
+
+`import tensorflow_ops as tfo`
+`tfo.conv_layer(...)`
+
+
 
