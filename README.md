@@ -33,7 +33,7 @@ tfo._fc_layer(...)
 
 ## Functions
 
-#### convolution
+#### Convolution
 `_conv_layer(inputs, kernel_size, stride, num_channels, name)`
 
 `inputs`: an input tensor (i.e an image)
@@ -45,5 +45,30 @@ tfo._fc_layer(...)
 `num_channels`: number of channels or feature maps
 
 `name`: name for variable scope
+
+Returns: `tf.nn.bias_add(conv, biases)` 
+
+
+
+#### Fully Connected
+`_fc_layer(inputs, hidden_units, flatten, name)`
+
+`inputs`: an input tensor (i.e the output of a conv layer)
+
+`hiddent units`: the number of hidden units to use (i.e the output shape)
+
+`flatten`: True/False flatten the tensor before reading in (required for images)
+
+`name`: name for variable scope
+
+
+
+#### Leaky RELU
+`lrelu(x, leak=0.1, name='lrelu')`
+
+`x`: an input tensor to perform LRELU on
+
+
+
 
 
