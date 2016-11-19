@@ -29,11 +29,7 @@ or
 tfo._conv_layer(...)
 tfo._fc_layer(...)
 ```
-
-
 ##### Exmples in the `examples` folder
-
-
 
 ## Functions
 
