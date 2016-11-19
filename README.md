@@ -16,14 +16,14 @@ or
 
 ## Usage
 
-```
+```python
 >>> from tensorflow_ops import _conv_layer
 _conv_layer(...)
 ```
 
 or
 
-```
+```python
 >>> import tensorflow_ops as tfo
 tfo.conv_layer(...)
 ```
