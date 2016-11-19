@@ -49,6 +49,21 @@ tfo._fc_layer(...)
 Returns: `tf.nn.bias_add(conv, biases)` 
 
 
+#### Transpose Convolution
+`_transpose_conv_layer(inputs, kernel_size, stride, num_channels, name):`
+
+`inputs`: an input tensor (i.e the output of a conv layer)
+
+`kernel_size`: size of the kernel (window size)
+
+`stride`: stride
+
+`num_channels`: number of channels or feature maps
+
+`name`: name for variable scope
+
+Returns: `tf.nn.bias_add(conv, biases)` 
+
 
 #### Fully Connected
 `_fc_layer(inputs, hidden_units, flatten, name)`
