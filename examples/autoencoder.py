@@ -6,6 +6,7 @@ import requests
 import gzip
 import os
 
+# import the functions we are going to use
 from tensorflow_ops import _conv_layer, _transpose_conv_layer, _fc_layer, lrelu
 
 batch_size = 10
