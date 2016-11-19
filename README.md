@@ -33,6 +33,7 @@ tfo._fc_layer(...)
 
 ## Functions
 
+#### convolution
 `_conv_layer(inputs, kernel_size, stride, num_channels, name)`
 
 `inputs`: an input tensor (i.e an image)
