@@ -35,3 +35,14 @@ tfo._fc_layer(...)
 
 `_conv_layer(inputs, kernel_size, stride, num_channels, name)`
 
+`inputs`: an input tensor (i.e an image)
+
+`kernel_size`: size of the kernel (window size)
+
+`stride`: stride
+
+`num_channels`: number of channels or feature maps
+
+`name`: name for variable scope
+
+
