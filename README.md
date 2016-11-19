@@ -16,7 +16,7 @@ or
 
 ## Usage
 
-```>>> from tensorflow_ops import _conv_layer```
+```>>> from tensorflow_ops import _conv_layer
 _conv_layer(...)
 ```
 
