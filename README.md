@@ -16,15 +16,18 @@ or
 
 ## Usage
 
-`from tensorflow_ops import _conv_layer`
-
-`_conv_layer(...)`
+```>>> from tensorflow_ops import _conv_layer```
+_conv_layer(...)
+```
 
 or
 
-`import tensorflow_ops as tfo`
+```>>> import tensorflow_ops as tfo
+tfo.conv_layer(...)
+```
 
-`tfo.conv_layer(...)`
 
+## Functions
 
+`_conv_layer(inputs, kernel_size, stride, num_channels, name)`
 
