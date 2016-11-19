@@ -17,15 +17,17 @@ or
 ## Usage
 
 ```python
->>> from tensorflow_ops import _conv_layer
+>>> from tensorflow_ops import _conv_layer, _fc_layer
 _conv_layer(...)
+_fc_layer(...)
 ```
 
 or
 
 ```python
 >>> import tensorflow_ops as tfo
-tfo.conv_layer(...)
+tfo._conv_layer(...)
+tfo._fc_layer(...)
 ```
 
 
